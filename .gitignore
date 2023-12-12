@@ -1,0 +1,16 @@
+*
+
+!**/
+!.gitignore
+!Makefile
+
+!srcs
+!includes
+!libs
+!*.c
+!*.h
+!srcs/parser/*.bnf
+
+/objs/
+/libs/objs/
+/testdir/
