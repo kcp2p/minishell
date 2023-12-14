@@ -6,7 +6,7 @@
 /*   By: krchuaip <krittin@42bangkok.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 19:25:11 by krchuaip          #+#    #+#             */
-/*   Updated: 2023/12/12 19:25:12 by krchuaip         ###   ########.fr       */
+/*   Updated: 2023/12/15 00:36:43 by krchuaip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ static bool	is_under_long(long long before_x10_val, long long add_val, int sign)
 	}
 	else
 	{
-		ov_div = ((unsigned long)-LONG_MIN) / 10;
-		ov_mod = ((unsigned long)-LONG_MIN) % 10;
+		ov_div = -(unsigned long long)(LONG_MIN) / 10;
+		ov_mod = -(unsigned long long)(LONG_MIN) % 10;
 	}
 	if (before_x10_val > ov_div)
 		return (false);

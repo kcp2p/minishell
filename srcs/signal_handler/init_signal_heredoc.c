@@ -6,7 +6,7 @@
 /*   By: krchuaip <krittin@42bangkok.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 11:13:36 by krchuaip          #+#    #+#             */
-/*   Updated: 2023/11/30 11:13:37 by krchuaip         ###   ########.fr       */
+/*   Updated: 2023/12/15 00:45:04 by krchuaip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 #include <readline/readline.h>
 #include <readline/history.h>
 
-t_gbl_var	g_status;
+static t_gbl_var	g_status;
 
 static void	heredoc_int_handler(int sig_num)
 {

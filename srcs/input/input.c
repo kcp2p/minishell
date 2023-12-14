@@ -6,13 +6,13 @@
 /*   By: krchuaip <krittin@42bangkok.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/10 14:57:33 by krchuaip          #+#    #+#             */
-/*   Updated: 2023/12/10 14:57:34 by krchuaip         ###   ########.fr       */
+/*   Updated: 2023/12/15 00:43:57 by krchuaip         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minishell.h"
 
-t_gbl_var	g_status;
+static t_gbl_var	g_status;
 
 void	prompt_int_handler(int sig_num)
 {
